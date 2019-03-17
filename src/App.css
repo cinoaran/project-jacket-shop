@@ -1,33 +1,305 @@
-.App {
+body{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background: url("https://images.pexels.com/photos/66284/winter-nature-season-trees-66284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: bottom;
+  
+}
+
+.container {
+  max-width: 1100px; 
+  min-height: 80vh;  
+}
+
+nav{  
+  background: rgba(196, 202, 202, 0.2); 
+}
+
+nav .navbar{ 
+  width: 100%;  
+  height: 170px;    
+  padding: 0px 20%;
+  
+}
+
+ul.nav-wrapper{  
+  padding: 9px; 
+}
+
+nav i.nav-icons{  
+  color: rgb(24, 25, 26) !important;
+  font-size: 1.0em !important;  
+}
+
+nav i.nav-icons:hover{
+  color: rgb(19, 186, 241) !important;  
+}
+
+nav a.active > i.nav-icons{
+  color: rgb(105, 194, 238) !important;
+}
+
+h3.slider-text{ 
+  position: absolute; 
+  width: 80%;
+  color: rgb(15, 15, 15) !important;
+  background: #fff;
+  opacity: 0.8;
+  font-weight: bold;
+  font-size: 1.0em;
   text-align: center;
+  padding: 12px;  
+  border: 1px solid #dedede;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin: 93% 0% 0% 7%;
+     
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+div.row{
+  margin-top: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#top-carousel{        
+  margin: 2% auto 3%;
+  width: 100%;
+  height: 23em;   
+  border: 1px solid #dedede;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 80px;
+  background: #fff;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+.image-slide{ 
+  margin: 0px auto;  
+  transition: all 0.5s ease-in 0s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+
+#top-carousel .slide-arrow { 
+  position: relative;   
+  color: #333;
+  cursor: pointer;
+  font-size: 2.4rem;
+  top: 100px;    
+  z-index: 100;
 }
+
+#top-carousel .slide-arrow.right {
+  color: #333;
+  background: #fafafa;
+ float: right;
+ margin-top: -300px; 
+
+}
+
+#top-carousel .slide-arrow.left {
+ float: left;
+ margin-top: 40px;
+}
+.slide-arrow.right:hover, .slide-arrow.left:hover{
+  color: rgb(14, 159, 231) !important;  
+}
+
+
+.card{
+  max-width: 18em;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.jumbotron h2.product-title{
+  display: inline-block;
+  font-size: 2.2em;
+  width: 100%;
+}
+
+p.card_text {
+ min-height: 90%;
+}
+
+.card i.fas.checked-icons{
+  position: absolute;
+  background-color: #333;
+  margin-top: -1px;
+  padding: 9px;  
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  font-size: 1.3em !important;
+  border: 1px solid #111;  
+  box-shadow: -1px 0px 9px 6px rgba(0, 98, 90, 0.2);
+  
+}
+
+.card i.fas, .jumbotron i.fas, .jumbotron i.far{
+  position: relative;  
+  margin-top: -1px;
+  padding: 5px;  
+  font-size: 1.0em !important;  
+  color: rgb(14, 159, 231) !important;
+}
+
+.card h5 a{
+  text-decoration: none;
+}
+
+.card h5 a:hover{
+  color: rgb(14, 159, 231) !important;
+
+}
+.card:hover, .jumbotron, #top-carousel{
+  box-shadow: -1px 0px 9px 6px rgba(0, 98, 90, 0.2);
+}
+
+.btn .btn-dark{ 
+  font-size: 1.0em;
+  line-height: 10px;
+}
+
+.jumbotron{  
+  background: #fff;
+  margin: 9px auto;
+  border: 1px solid #dedede;
+}
+
+.jumbotron img.img-thumbnail{  
+  max-width: 150px;
+  margin-right: 25%;
+  z-index: 1000;
+}
+
+span.max-quantity{
+  color: #fff;
+  margin-left: 12px;
+  background: #333;
+  padding: 6px;
+  font-size: 0.6em;
+  border-radius: 4px;
+  float: right;
+}
+
+p.text-dark{    
+  padding: 3px;
+  color: #444;
+  margin:10px 10% auto ;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 1.0em;
+  width: 100%;
+}
+
+span.badge{
+  color: rgb(14, 159, 231) !important;
+}
+
+span.item-counter{ 
+  padding: 0px 10%;
+}
+
+span.item-remove{
+  padding: 0px 3%;
+}
+
+span.owner-text{
+  font-size: 35px;
+  text-shadow: 2px -1px 2px #000000;
+  color: rgb(5, 155, 214);
+  margin-left: 12px;
+  
+}
+
+.content-slider {
+  position: relative;
+  overflow: hidden;
+  padding: 20px 0;    
+  max-width: 100%;
+  height: 200px;  
+  margin: 30px 0px;
+  z-index: 1000;
+}
+
+.card img {
+  max-width: calc(80%);
+  margin: 0 auto;
+  display: block; 
+ }
+
+ .cards-slider-wrapper {
+  display: flex;  
+  position: absolute;
+  margin: 20px;
+ }
+
+ .cards-slider-wrapper .card {
+    flex: 1;
+    min-width: 200px; 
+    height: 110px;  
+    transform: scale(0.8);
+    box-shadow: none;
+    background-color: white;
+    border-color: #333;
+    transition: all 0.6s ease 0s;
+  }   
+
+.slider-btn {
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+  width: 35px;
+  height: 90px;  
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  z-index: 999;
+  transition: all 0.6s ease 0s;
+}
+
+.slider-btn:hover {  
+  background: rgb(105, 194, 238);
+}
+
+.btn-r {
+  right: 0;
+}
+.btn-l {
+  left: 0px;
+}
+
+.avatar-image{
+  border-radius: 50%;
+  width: 50%;
+}
+
+.map {
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+  height: 350px;
+}
+.leaflet-popup-content p {
+  line-height: 2px;
+}
+
+footer{  
+  margin-top: 20px auto; 
+  width: 100%;
+  text-align: center;
+  background: rgba(196, 202, 202, 0.2);
+  border-top: 1px solid #dedede;
+}
+footer p{
+  width: 100%;
+  color: rgb(5, 155, 214);
+}
+
+
+
+

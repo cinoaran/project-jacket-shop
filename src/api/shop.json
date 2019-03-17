@@ -1,0 +1,169 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Contrast",
+        "desc": "Mens Contrast Colors Panelled Jackets Winter Thick Body Warm Coats Faux Fur Hooded Jackets.",
+        "price": 110,
+        "maxQuantity": 10,
+        "quantity": 0,
+        "likes": 0,
+        "img": "https://www.patagonia.com/dis/dw/image/v2/ABBM_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw77733998/images/hi-res/84212_NAD.jpg?sw=300&sh=300&sfrm=png"
+      },
+      {
+        "id": 2,
+        "title": "Adidas",
+        "desc": "Adidas Originals Heritage Reborn | Xeno pack | holographic jacket | iridescent jacket | clothing | sportswear | streetwear",
+        "price": 80,
+        "maxQuantity": 10,
+        "quantity": 0,
+        "likes": 0,
+        "img": "https://www.revzilla.com/product_images/0172/8918/revit_airwave2_jacket_silver_black_300x300.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Vans",
+        "desc": "Vans Santiago III Jacket with Black Vans Jacket.",
+        "price": 120,
+        "maxQuantity": 10,
+        "quantity": 0,
+        "likes": 0,
+        "img": "http://www.adventurebikewarehouse.com/WebRoot/BT3/Shops/BT4672/5894/752B/2C12/8D6C/5D69/0A0C/05B7/8763/klim-kodiak-jacket-grey-front.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Carhartt",
+        "desc": "Carhartt Men's Brown Thermal Lined Duck Active Jacket.",
+        "price": 260,
+        "maxQuantity": 10,
+        "quantity": 0,
+        "likes": 0,
+        "img": "https://content.regatta.com/SBRMP089_540/350/SBRMP089_540_01_bynder_defined_type_product_01.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Windbreaker",
+        "desc": "Windbreaker jacket with Long sleeves and full zip closure.",
+        "price": 160,
+        "maxQuantity": 10,
+        "quantity": 0,
+        "likes": 0,
+        "img": "https://media.endclothing.com/media/f_auto,q_auto:eco,w_400,h_400/prodmedia/media/catalog/product/2/5/25-01-2019_alphaindustries_ma-1vf59flightjacket_sagegreen_191118-01_blr_1.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Alphatic",
+        "desc": "The Alpha Industries Maverick bomber takes inspiration from some of Alpha’s most iconic flight jackets.",
+        "price": 90,
+        "maxQuantity": 10,
+        "quantity": 0,
+        "likes": 0,
+        "img": "https://images-na.ssl-images-amazon.com/images/I/61GbHjfqk2L._UX385_.jpg"
+      }
+
+    ],
+
+    "nextCollection":{
+      "getUrl": [
+        "https://static1.squarespace.com/static/577fdfff1b631b47256f983d/589a80f7725e250f8643305c/5969136646c3c4b3ddb6c022/1500058480106/OK+Ladies+Soft+Shell+Jacket.png?format=300w",
+        "https://www.montbell.us/products/prod_img/large/k_2301237_dvgy.jpg",
+        "https://www.carinthia.eu/userdata/mysydeshop/images/tumb_3/7323_isg-jacket-olive-01.jpg",
+        "https://www.carinthia.eu/userdata/mysydeshop/images/tumb_3/7289_isg-jacket-black-01.jpg",
+        "https://cdn.shopify.com/s/files/1/0049/8728/9715/products/Screen_Shot_2018-07-09_at_9.37.41_PM_400x.png?v=1531450511",
+        "https://valiram.com/wp-content/uploads/2017/05/La-Martina-women%C3%A2%E2%82%AC%E2%84%A2s-double-Cavallery-jacket.png",
+        "https://www.maseratistore.com/media/catalog/product/cache/0/thumbnail/570x570/0dc2d03fe217f8c83829496872af24a0/0/2/02034_1_2.jpg",
+        "https://shop.zipfer.at/wp-content/uploads/2017/01/Zipfer-College-Jacke-Unisex.jpg"
+  
+      ],
+      "getText": [
+        "OK SPORTS JACKET 29,99 EUR",
+        "ABABAS JACKET 129,99 EUR",
+        "TARARA JACKET 99,99 EUR",
+        "LALALA JACKET 68,99 EUR",
+        "LOPOLOP JACKET 145,99 EUR",
+        "FAFAFA JACKET 19,99 EUR",
+        "TRALALA JACKET 89,99 EUR",
+        "XOLOP JACKET 125,99 EUR"
+      ]
+    },
+
+    "card": {
+        "addedItems": [],
+        "total": 0
+    },
+
+    "owner": [
+      {
+        "name": "Bradley Parker",
+        "sales_manager": "Carlo Rodrigues",
+        "logistic_manager": "Jerry Smith",
+        "support_manager": "Jessica Hyde",
+        "company": "Just Jacket",
+        "address": "Max-Beer-Straße 13,10119 Berlin",
+        "tax_number": "123456789",
+        "email": "bradley.parker@mail.com",
+        "phone": "+49.30 111.222.333",
+        "mobile": "+49 159 234567890",
+        "lat": 52.525541,
+        "lng": 13.40805,
+        "storeimage": "https://scontent.ftxl3-1.fna.fbcdn.net/v/t1.0-9/14222251_1770596449874675_258352237355920430_n.jpg?_nc_cat=107&_nc_ht=scontent.ftxl3-1.fna&oh=9000856bbecb498170ca27a13660b2c9&oe=5D195D9E",
+        "zoom": 16,
+        "philosophie": "Just Jacket est. 1967 is one of Berlin's oldest and well known Store for high quality jackets. During the 1970s we launched a collection that took us from the quays of Grundsund to the glamorous streets of the great cities of Europe. This collection was called REX. We are now launching a reinterpretation of this classic collection – maintaining the same high level of quality, function and style as 80 years ago. We were constantly looking for new adventures. Inspiration for the REX collection came from global cities such as London and Paris, and the collection targeted travellers and adventurous city-dwellers who were looking to discover the world. This was a huge contrast to Didriksons’ background of producing functional workwear for fishermen.",
+        "sales": "http://profilepicturesdp.com/wp-content/uploads/2018/06/avatar-pictures-for-profile-4.png",
+        "manager": "https://pickaface.net/gallery/avatar/87437122_161016_0409_2nywbi3.png",
+        "support": "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2014%2F04%2F03%2F10%2F32%2Fuser-310807_960_720.png&f=1",
+        "logistic": "https://cdn0.iconfinder.com/data/icons/iconshock_guys/512/andrew.png",
+        "est": 1967      
+      }
+    ],
+    "customer": {
+      "boughtItems": [],
+      "customerData": []
+    
+    },
+    "sponsors": [
+      {
+      "id": "1",
+      "index": 0,
+      "image": "http://mlle-chamalow.com/blog/wp-content/uploads/2013/08/grease_logo_150160354.jpg"
+      },
+      
+      {
+        "id": "2",
+        "index": 1,
+        "image": "https://www.sony.jp/playstation/psvr/module_images/400_200_psvr_cp_logo_4.jpg"
+      },
+      {
+        "id": "3",
+        "index": 2,
+        "image": "http://www.geitenstudieclub.nl/wp-content/uploads/2013/09/logo-Almathea.jpg"
+      },
+      {
+        "id": "4",
+        "index": 3,
+        "image": "https://static.ttpp.com/brandlogo_thumb/0-29531_400_200.jpg"
+      },
+      {
+        "id": "5",
+        "index": 4,
+        "image": "http://mlle-chamalow.com/blog/wp-content/uploads/2013/08/grease_logo_150160354.jpg"
+        },
+        
+        {
+          "id": "6",
+          "index": 5,
+          "image": "https://www.sony.jp/playstation/psvr/module_images/400_200_psvr_cp_logo_4.jpg"
+        },
+        {
+          "id": "7",
+          "index": 6,
+          "image": "http://www.geitenstudieclub.nl/wp-content/uploads/2013/09/logo-Almathea.jpg"
+        },
+        {
+          "id": "8",
+          "index": 7,
+          "image": "https://static.ttpp.com/brandlogo_thumb/0-29531_400_200.jpg"
+        }
+    
+    ]
+  }
