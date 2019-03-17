@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route , Switch} from 'react-router-dom';
 
+
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
@@ -11,6 +12,7 @@ import Product from './components/Product';
 import Customer from './components/Customer';
 import Page404 from './components/Page404/Page404'
 import './App.css';
+
 
 class App extends Component {
   render() {

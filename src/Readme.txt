@@ -129,5 +129,19 @@ For Actions
         export const ADD_SHIPPING = 'ADD_SHIPPING';
 
 
+To keep things consistent across linux(my production server) and windows(my development server) I use cross-env
+ 
+ 
+ and my scripts look like this
 
-        
+"scripts": {
+    "dev": "cross-env NODE_ENV=development node server",
+    "build": "cross-env NODE_ENV=production next build ",
+    "start": "cross-env NODE_ENV=production node server"
+  },
+so to set a custom env like REACT_APP_ENV you'll need to
+
+"build_staging": "cross-env REACT_APP_ENV=staging react-scripts build",
+and you can access it in your javascript code using
+
+process.env.REACT_APP_ENV       

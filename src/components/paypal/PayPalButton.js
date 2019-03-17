@@ -3,18 +3,19 @@ import { withRouter } from 'react-router-dom';
 import PaypalExpressBtn from 'react-paypal-express-checkout';
 import { connect } from 'react-redux'
 import { addCustomer} from '../../actions/cardActions';
- 
+
 class MyApp extends React.Component {
     
     constructor(props){
+        
         super(props)        
         this.addedItems = this.props.addedItems;
         this.payment = [this.addedItems, this.payment];
+        
     }
 
 
-    render() {
-        
+    render() {       
        
         const onSuccess = (payment, addedItems = this.addedItems) => {
             // Congratulation, it came here means everything's fine!
@@ -51,7 +52,8 @@ class MyApp extends React.Component {
         // Document on Paypal's currency code: https://developer.paypal.com/docs/classic/api/currency_codes/
  
         const client = {
-            sandbox:    'AYj7L76A2kGIeLKeCyiLPgL5RZ34SYYL3EA8_cH-U7gk3y5Ruw_Lox0moRIhZVEohEfGMRcYZ8Gkm0MT',
+            
+            sandbox: 'AYj7L76A2kGIeLKeCyiLPgL5RZ34SYYL3EA8_cH-U7gk3y5Ruw_Lox0moRIhZVEohEfGMRcYZ8Gkm0MT',
             production: 'YOUR-PRODUCTION-APP-ID',
         }
         // In order to get production's app-ID, you will have to send your app to Paypal for approval first

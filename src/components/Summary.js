@@ -9,8 +9,7 @@ class Recipe extends Component{
     render(){
 
     const { total } = this.props.card.card;
-    const { addedItems } = this.props.card.card;
-    
+    const { addedItems } = this.props.card.card;    
        
     return(
             <div className="row">

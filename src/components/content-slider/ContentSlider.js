@@ -31,9 +31,6 @@ class ContentSlider extends React.Component {
     render() {
 
       const {sponsors, sponsor} = this.state;
-
-      console.log(sponsor)
-
       return(
         <div className="content-slider">
         <h3 className="text-center mt-1">OUR SPONSORS</h3>

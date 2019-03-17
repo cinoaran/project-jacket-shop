@@ -4,6 +4,7 @@ import { addQuantity,subQuantity,removeItem } from '../actions/cardActions';
 import Summary from './Summary'
 import '../App.css';
 
+
 class Card extends React.Component {
 
 
@@ -24,6 +25,7 @@ class Card extends React.Component {
 
 
   render() {
+    
 
     const {addedItems} = this.props.card.card;
    
